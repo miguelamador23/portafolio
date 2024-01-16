@@ -5,7 +5,7 @@ function Nav() {
     <>
       <nav class="bg-white border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <img src="public/logo1.svg" class="h-32 w-32" alt="Flowbite Logo" />
+          <img src="logo1.svg" class="h-32 w-32" alt="logo" />
           <button
             data-collapse-toggle="navbar-default"
             type="button"
