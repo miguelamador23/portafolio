@@ -1,11 +1,12 @@
 import React from "react";
+import './Nav.css'
 
 function Nav() {
   return (
     <>
       <nav class="bg-white border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <img src="logo1.svg" class="h-32 w-32" alt="logo" />
+        <img src="logo2.svg" class="logo" alt="logo" />
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -78,13 +79,13 @@ function Nav() {
                 </a>
               </li>
               <li>
-                <img src="public/github.svg" alt="" />
+                <img src="github.svg" alt="" />
               </li>
               <li>
-                <img src="public/linkedin.svg" alt="" />
+                <img src="linkedin.svg" alt="" />
               </li>
               <li>
-                <img src="public/twitter.svg" alt="" />
+                <img src="twitter.svg" alt="" />
               </li>
             </ul>
           </div>
