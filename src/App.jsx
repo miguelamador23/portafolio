@@ -1,17 +1,19 @@
-import './App.css'
-import { useState } from 'react'
-import Nav from './components/Nav'
-import Informacion from './components/Informacion'
+import "./App.css";
+import { useState } from "react";
+import Nav from "./components/Nav";
+import Informacion from "./components/Informacion";
 
 function App() {
-
-
   return (
     <>
-      <Nav />
-      <Informacion />
+      <div>
+        <Nav />
+      </div>
+      <container>
+        <Informacion />
+      </container>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

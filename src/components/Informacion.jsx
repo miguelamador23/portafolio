@@ -1,18 +1,21 @@
 import React from "react";
-import './Informacion.css'
+import "./Informacion.css";
 
 function Informacion() {
-    return (
-        <>
-        <div>
+  return (
+    <>
+      <div>
         <h1 className="Titulo">
-        Hi 👋,<br /> My name is <p className="Nombre"> Miguel AZ</p> MG I build things for web
+          Hi 👋,
+          <br /> My name is <p className="Nombre"> Miguel AZ</p> MG I build
+          things for web
         </h1>
-
+      </div>
+      <div class="container">
         <img className="img" src="fotoperfil.svg" alt="Foto de perfil" />
-        </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
-export default Informacion
+export default Informacion;
