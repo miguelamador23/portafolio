@@ -1,0 +1,40 @@
+@import 'animate.css';
+
+.About {
+    color: var(--Solid-Heading, #42446e);
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-left: 15%;
+    margin-top: 15%;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .parrafo1 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15%;
+    margin-top: 10px;
+    animation: fadeInUp 1s ease; 
+    color: #333;
+    font-size: 18px; 
+    line-height: 1.6; 
+    font-weight: 400;
+  }
+
+  .Work{
+   
+      color: var(--Solid-Heading, #42446e);
+      font-family: Poppins, sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 70px;
+      letter-spacing: -1px;
+      margin-left: 15%;
+      margin-top: 10%;
+      animation: fadeInUp 1s ease;
+    
+  }
